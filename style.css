@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ background-image {
+    background-image: url("C:\Users\aprak\Downloads\Add a subheading.jpg"); /* Replace with your image path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: "C:\Users\aprak\Downloads\Add a subheading.jpg"; /* Change text color for better readability */
+    padding: 50px 20px; /* Add padding for spacing */
+ }
+ @media (max-width: 10px) {
+    .background-image {
+        background-image: url('"C:\Users\aprak\Downloads\Add a subheading.jpg"') ; /* Use a different image for mobile */
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2781b8;
+    color: rgb(243, 238, 238);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: side;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #35424a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #444;
+}
+
